@@ -3,15 +3,10 @@ public class House {
 
 	public static void main(String[] args) {
 		v1();
-		n_line();
 		v2();
-		n_line();
 		v3();
-		n_line();
 		v4();
-		n_line();
 		v5();
-		n_line();
 		v6();
 	}
 	
@@ -53,6 +48,7 @@ public class House {
 		n_line();
 		malt();
 		house();
+		n_line();
 	}
 	
 	public static void v2() {
@@ -60,6 +56,7 @@ public class House {
 		System.out.println("rat,");
 		malt();
 		house();
+		n_line();
 	}
 	
 	public static void v3() {
@@ -68,6 +65,7 @@ public class House {
 		rat();
 		malt();
 		house();
+		n_line();
 	}
 	
 	public static void v4() {
@@ -77,6 +75,7 @@ public class House {
 		rat();
 		malt();
 		house();
+		n_line();
 	}
 	
 	public static void v5() {
@@ -87,6 +86,7 @@ public class House {
 		rat();
 		malt();
 		house();
+		n_line();
 	}
 	
 	public static void v6() {
@@ -98,5 +98,6 @@ public class House {
 		rat();
 		malt();
 		house();
+		n_line();
 	}
 }
