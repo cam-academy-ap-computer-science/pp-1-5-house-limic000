@@ -42,30 +42,30 @@ public class House {
 		System.out.println("");
 	}
 
+	public static void repeat() {
+		malt();
+		house();
+		n_line();
+	}
 	public static void v1() {
 		the();
 		System.out.println("house that Jack built.");
 		n_line();
 		malt();
 		house();
-		n_line();
 	}
 	
 	public static void v2() {
 		the();
 		System.out.println("rat,");
-		malt();
-		house();
-		n_line();
+		repeat();
 	}
 	
 	public static void v3() {
 		the();
 		System.out.println("cat,");
 		rat();
-		malt();
-		house();
-		n_line();
+		repeat();
 	}
 	
 	public static void v4() {
@@ -73,9 +73,7 @@ public class House {
 		System.out.println("dog,");
 		cat();
 		rat();
-		malt();
-		house();
-		n_line();
+		repeat();
 	}
 	
 	public static void v5() {
@@ -84,9 +82,7 @@ public class House {
 		dog();
 		cat();
 		rat();
-		malt();
-		house();
-		n_line();
+		repeat();
 	}
 	
 	public static void v6() {
@@ -96,8 +92,6 @@ public class House {
 		dog();
 		cat();
 		rat();
-		malt();
-		house();
-		n_line();
+		repeat();
 	}
 }
