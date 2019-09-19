@@ -1,4 +1,3 @@
-
 public class House {
 
 	public static void main(String[] args) {
@@ -8,6 +7,7 @@ public class House {
 		v4();
 		v5();
 		v6();
+		v7();
 	}
 	
 	public static void house() {
@@ -56,29 +56,34 @@ public class House {
 	
 	public static void v2() {
 		the();
+		System.out.println("malt");
+		house();
+	}
+	public static void v3() {
+		the();
 		System.out.println("rat,");
 		malt();
 	}
 	
-	public static void v3() {
+	public static void v4() {
 		the();
 		System.out.println("cat,");
 		rat();
 	}
 	
-	public static void v4() {
+	public static void v5() {
 		the();
 		System.out.println("dog,");
 		cat();
 	}
 	
-	public static void v5() {
+	public static void v6() {
 		the();
 		System.out.println("cow with the crumpled horn,");
 		dog();
 	}
 	
-	public static void v6() {
+	public static void v7() {
 		the();
 		System.out.println("maiden all forlorn");
 		cow();
