@@ -22,6 +22,7 @@ public class House {
 	public static void malt () {
 		System.out.println("That ate the malt");
 		house();
+		
 	}
 	
 	public static void rat() {
